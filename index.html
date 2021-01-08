@@ -39,6 +39,10 @@ body {
         width: 70rem;
         background-repeat:no-repeat;
         background-size:300%;
+	      background: -webkit-linear-gradient(to left, lightpink,lightblue);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left,lightblue ,lightpink);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
    
       .cs1{
@@ -120,13 +124,13 @@ const getq= async ()=>{
 
 getq();
 
-/*var message = "Right click function disabled By Owner!";
+var message = "Right click function disabled By Owner!";
 
 function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
 
 if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
-document.onmousedown = rtclickcheck;*/
+document.onmousedown = rtclickcheck;
 </script>
 
 </html>

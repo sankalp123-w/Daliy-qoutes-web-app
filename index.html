@@ -110,7 +110,7 @@ const getq= async ()=>{
 	};
    function getNewqoutes() {
   
-	let rnum= Math.floor(Math.random()*20);
+	let rnum= Math.floor(Math.random()*1000);
     qou.innerText= data[rnum].text;
     aut.innerText= data[rnum].author;
     if (data[rnum].author==null) {
